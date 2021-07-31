@@ -39,5 +39,6 @@
 	</bean>
 	<tx:annotation-driven transaction-manager="transactionManager" />
 	<context:annotation-config></context:annotation-config>
-	
+	     <!-- DECLARATION DES BEANS -->
+	     <import resource="classpath:config/beans-config.xml"/>
 </beans>
